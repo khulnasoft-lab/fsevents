@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/fsnotify/fsevents"
+	"github.com/khulnasoft-lab/fsevents"
 )
 
 func main() {

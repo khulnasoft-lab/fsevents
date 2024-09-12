@@ -1,3 +1,3 @@
 go 1.17
 
-module github.com/fsnotify/fsevents
+module github.com/khulnasoft-lab/fsevents

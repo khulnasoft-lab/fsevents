@@ -1,7 +1,7 @@
 [FSEvents] allows an application to monitor a whole file system or portion of
 it. FSEvents is only available on macOS.
 
-Godoc: https://pkg.go.dev/github.com/fsnotify/fsevents
+Godoc: https://pkg.go.dev/github.com/khulnasoft-lab/fsevents
 
 **Warning:** This API should be considered unstable.
 

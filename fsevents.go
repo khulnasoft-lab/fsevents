@@ -144,6 +144,9 @@ func (es *EventStream) Start() error {
 	// in C callback
 	cbInfo := registry.Add(es)
 	es.registryID = cbInfo
+	if es.Device != 0 {
+		es.uuid = GetDeviceUUID(es.Device)
+	}
 	es.uuid = GetDeviceUUID(es.Device)
 	err := es.start(es.Paths, cbInfo)
 	if err != nil {
